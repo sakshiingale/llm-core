@@ -14,6 +14,7 @@ MODEL = "gpt-4.1-nano"
 
 DB_NAME = str(Path(__file__).parent.parent / "vector_db")
 KNOWLEDGE_BASE = str(Path(__file__).parent.parent / "knowledge-base")
+#knowledge base is a directory created in which there are folders of: company(company specific details) , contracts(files of all contracts), employees(details of all employees) and products(all the products created by the company) 
 
 # embeddings = HuggingFaceEmbeddings(model_name="all-MiniLM-L6-v2")
 
